@@ -12,8 +12,8 @@
     <description>Parent pom for all modules contains common dependencies, plugins etc...</description>
 
     <scm>
-        <connection>scm:svn:https://ec2-54-235-100-12.compute-1.amazonaws.com/svn/TEM/trunk/parent-module</connection>
-        <developerConnection>scm:svn:https://ec2-54-235-100-12.compute-1.amazonaws.com/svn/TEM/trunk/parent-module</developerConnection>
+       <connection>scm:ssh://git@github.com/eolemal/tets_versions.git</connection>
+        <developerConnection>scm:ssh://git@github.com/eolemal/tets_versions.git</developerConnection>
     </scm>
 
     <repositories>

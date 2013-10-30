@@ -11,8 +11,8 @@
 
 	
 	 <scm>
-        <connection>scm:svn:https://ec2-54-235-100-12.compute-1.amazonaws.com/svn/TEM/branches/updateVersions</connection>
-        <developerConnection>scm:svn:https://ec2-54-235-100-12.compute-1.amazonaws.com/svn/TEM/branches/updateVersions</developerConnection>
+        <connection>scm:ssh://git@github.com/eolemal/tets_versions.git</connection>
+        <developerConnection>scm:ssh://git@github.com/eolemal/tets_versions.git</developerConnection>
     </scm>
 	
 	<!-- admin and sem projects were put in top because they are often used -->

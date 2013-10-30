@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Olenka
+Build-Jdk: 1.7.0
+Class-Path: lib/child2-0.0.2-SNAPSHOT.jar
+Specification-Title: child
+Specification-Version: 0.0.1-SNAPSHOT
+Implementation-Title: child
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.test
+Created-By: Maven Integration for Eclipse
+
