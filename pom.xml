@@ -9,16 +9,39 @@
 	<packaging>pom</packaging>
 	<name>root-module</name>
 
-	
-	 <scm>
-        <connection>scm:ssh://git@github.com/eolemal/tets_versions.git</connection>
-        <developerConnection>scm:ssh://git@github.com/eolemal/tets_versions.git</developerConnection>
-    </scm>
-	
+
+	<scm>
+   		<url>https://github.com/eolemal/tets_versions</url>
+    	<connection>scm:git:ssh://git@github.com/eolemal/tets_versions.git</connection>
+    	<developerConnection>scm:git:ssh://git@github.com/eolemal/tets_versions.git</developerConnection>
+	</scm>
+
 	<!-- admin and sem projects were put in top because they are often used -->
 	<modules>
 		<module>child2</module>
 		<module>child</module>
 		<module>parent</module>
 	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.2.1</version>
+				<executions>
+					<execution>
+						<id>default</id>
+						<goals>
+							<goal>perform</goal>
+						</goals>
+						<configuration>
+							<pomFileName>pom.xml</pomFileName>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
 </project>

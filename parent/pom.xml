@@ -40,8 +40,7 @@
         <!-- These properties should be overridden in child module. -->
         <maven.jar.plugin.mainclass />
         <parent.version>1.0</parent.version>
-        <source.control.url>https://ec2-54-235-100-12.compute-1.amazonaws.com/svn/TEM/</source.control.url>
-        <repository.url>http://ec2-54-235-118-22.compute-1.amazonaws.com:8081/artifactory</repository.url>
+        <source.control.url>https://github.com/eolemal/tets_versions.git</source.control.url>
         <tag.base>${source.control.url}/tags/${project.name}</tag.base>
 
          <!-- tests -->
