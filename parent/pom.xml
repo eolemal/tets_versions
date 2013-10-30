@@ -11,10 +11,11 @@
     <name>parent</name>
     <description>Parent pom for all modules contains common dependencies, plugins etc...</description>
 
-    <scm>
-       <connection>scm:ssh://git@github.com/eolemal/tets_versions.git</connection>
-        <developerConnection>scm:ssh://git@github.com/eolemal/tets_versions.git</developerConnection>
-    </scm>
+  <scm>
+   		<url>http://github.com/eolemal/tets_versions</url>
+    	<connection>scm:git:ssh://git@github.com/eolemal/tets_versions.git</connection>
+    	<developerConnection>scm:git:ssh://git@github.com/eolemal/tets_versions.git</developerConnection>
+	</scm>
 
     <repositories>
         <repository>

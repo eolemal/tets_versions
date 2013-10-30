@@ -11,7 +11,7 @@
 
 
 	<scm>
-   		<url>https://github.com/eolemal/tets_versions</url>
+   		<url>http://github.com/eolemal/tets_versions</url>
     	<connection>scm:git:ssh://git@github.com/eolemal/tets_versions.git</connection>
     	<developerConnection>scm:git:ssh://git@github.com/eolemal/tets_versions.git</developerConnection>
 	</scm>
@@ -37,6 +37,7 @@
 						</goals>
 						<configuration>
 							<pomFileName>pom.xml</pomFileName>
+				            <autoVersionSubmodules>true</autoVersionSubmodules>
 						</configuration>
 					</execution>
 				</executions>
