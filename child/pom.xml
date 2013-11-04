@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>child</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <parent>
         <groupId>com.test</groupId>
         <artifactId>root-module</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
 
     <packaging>jar</packaging>
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>com.test</groupId>
             <artifactId>child2</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>1.0.1</version>
         </dependency>
      </dependencies>
 </project>
