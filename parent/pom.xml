@@ -62,7 +62,7 @@
         <maven-dependency-plugin.version>2.8</maven-dependency-plugin.version>
 
         <!-- SE -->
-        <child2.version>0.0.2-SNAPSHOT</child2.version>
+        <child2.version>4.0.0-SNAPSHOT</child2.version>
     </properties>
 
     <build>
