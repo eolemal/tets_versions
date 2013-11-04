@@ -12,8 +12,8 @@
 
   <scm>
    		<url>http://github.com/eolemal/tets_versions</url>
-    	<connection>scm:git:ssh://github.com/eolemal/tets_versions.git</connection>
-    	<developerConnection>scm:git:ssh://github.com/eolemal/tets_versions.git</developerConnection>
+    	<connection>scm:git:git@github.com:eolemal/tets_versions.git</connection>
+    	<developerConnection>scm:git:git@github.com:eolemal/tets_versions.git</developerConnection>
 	</scm>
 
     <repositories>
