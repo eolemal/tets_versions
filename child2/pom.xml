@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>child2</artifactId>
-    <version>4.0.0-SNAPSHOT</version>
+    <version>4.0.0</version>
     <parent>
         <groupId>com.test</groupId>
         <artifactId>parent</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>4.0.0</version>
     </parent>
     <packaging>jar</packaging>
     <description>child2</description>
